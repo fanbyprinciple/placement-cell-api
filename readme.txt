@@ -26,5 +26,7 @@ The api has following function calls : at localhost:8080/
     8. registerStudent -  register a student with a company
     9. unregisterStudent - unregister a student (using sid) with a company (using cid)
 
+Additional implementations -
 -Added mechanism for logging by using colorization of logger timestamps.
+-Added Chai library for validation.
 -Additionally almost every function call has its own associated error handling mechanism.
