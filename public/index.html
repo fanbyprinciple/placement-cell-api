@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PLacement Cell </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h2 style="text-align:center; justify-content: center; display:flex"> Hi, Head to postman to verify api calls.</h2>
+    <hr>
+    <br>
+    <div style=" justify-content: center; display:flex">
+        <p>
+                Two schemas in api - <br>
+
+                1. Student<br>
+                var studentSchema = new Schema({<br>
+                    name: String,
+                    department: String,
+                    sid: Number,
+                    percentage: Number
+                });<br>
+                
+                2. Company<br>
+                var companySchema = new Schema({<br>
+                    cname: String,
+                    cid: Number,
+                    regsid: [] 
+                });<br><br>
+                
+                The api has following function calls : at localhost:8080/<br>
+                    1. students - returns all students in db<br>
+                    2. addStudent - add a student<br>
+                    3. editStudent - edits a student with given sid<br>
+                    4. removeStudent - removes a student with given sid<br>
+                    5. companys - returns all registered companies<br>
+                    6. registerCompany - register the company<br>
+                    7. unregisterCompany - unregister the company<br>
+                    8. registerStudent -  register a student with a company<br>
+                    9. unregisterStudent - unregister a student (using sid) with a company (using cid)<br>
+                
+                Additionally almost every function call has its own associated error handling mechanism.<br>
+                
+        </p>
+
+    </div>
+</body>
+</html>
